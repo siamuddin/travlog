@@ -1,0 +1,103 @@
+@font-face {
+    font-family: CircularStd;
+    src: url(circular-std-font-family/CircularStd-Book.ttf) format(truetype),;
+    font-weight: normal;
+}
+@font-face {
+    font-family: CircularStd;
+    src: url(circular-std-font-family/CircularStd-Medium.ttf) format('truetype'),url(circular-std-font-family/CircularStd-Medium.woff) format('woff');
+    font-weight: 600;
+}
+@font-face {
+    font-family: CircularStd;
+    src: url(circular-std-font-family/CircularStd-Bold.ttf) format('truetype'), url(circular-std-font-family/CircularStd-Bold.woff) format('woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: CircularStd;
+    src: url(circular-std-font-family/CircularStd-Black.ttf);
+    font-weight: bolder;
+}
+*{
+    font-family: CircularStd, Manrope;
+    margin: 0;
+}
+h1{
+    font-size: 69px;
+}
+
+h2{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 28px;
+    font-weight: bold;
+}
+h5{
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: normal;
+}
+.p1{
+    font-size: 19px;
+    color: black;
+    opacity: 50%;
+    font-weight: normal;
+}
+
+.p2{
+    color: #F85E9F;
+    font-size: 23px;
+    font-weight: bolder;
+    opacity: 100%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.p3{
+    font-size: 23px;
+    opacity: 75%;
+}
+.p4{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: normal;
+}
+
+.white-button {
+    padding: 16px 32px;
+    border-radius: 100px;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+}
+
+.purple-button{
+    padding: 16px 32px;
+    border-radius: 100px;
+    border: none;
+    font-weight: bold;
+    background-color: #5D50C6;
+    color: white;
+}
+.arrow-right{
+    background-color: #5D50C6;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.131);
+}
+.arrow-left{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
